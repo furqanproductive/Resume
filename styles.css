@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.row {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+header {
+    
+    padding: 20px;
+    color: #333;
+    
+}
+h1, h2 {
+    color: #333;
+}
+h2 {
+    text-align: center;
+    border-top: 3px solid #333;
+    border-bottom: 1px solid #333;
+}
+.section {
+    margin-bottom: 20px;
+}
+.contact a {
+    color: #0073b1;
+    text-decoration: none;
+}
+ul {
+    padding-left: 50px;
+}
+li {
+    margin-bottom: 10px;
+}
+img {
+    width: 175px;
+    height: 175px;
+  }
