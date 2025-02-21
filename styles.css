@@ -29,6 +29,7 @@ h2 {
     text-align: center;
     border-top: 3px solid #333;
     border-bottom: 1px solid #333;
+    text-transform: capitalize;
 }
 .section {
     margin-bottom: 20px;
